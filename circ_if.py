@@ -7,11 +7,11 @@ print(area)
 
 # if statement to print formatted response
 
-if radius < 50:
-	print(f'your {area}m circle is small')
-elif radius <200:
-	print(f'your {area}m circle is medium')
+if area < 500:
+	print(f'your {area:.3f}m circle is small')
+elif area <2000:
+	print(f'your {area:.3f}m circle is medium')
 else:
-	print(f'your {area}m circle is yuge')
+	print(f'your {area:.3f}m circle is yuge')
 	
 	
